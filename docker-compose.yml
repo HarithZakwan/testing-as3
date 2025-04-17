@@ -3,7 +3,7 @@ services:
     build:
         context: ./docker
         dockerfile: Dockerfile
-    image: devopsas3/app:latest 
+    image: devopsas3:latest 
     networks:
         - sysops
 
