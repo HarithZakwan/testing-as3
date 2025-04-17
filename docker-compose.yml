@@ -5,7 +5,7 @@ services:
         dockerfile: Dockerfile
     image: devopsas3/app:latest 
     networks:
-        -sysops
+        - sysops
 
     volumes:
        - ./laravel/:/var/www/html
@@ -30,7 +30,7 @@ services:
     networks:
       - sysops
     volumes:
-      -mysqldbdata:/var/lib/mysql
+      - mysqldbdata:/var/lib/mysql
 networks:
   sysops:
     driver: bridge
