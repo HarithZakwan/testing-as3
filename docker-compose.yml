@@ -1,7 +1,7 @@
 services:
   laravel:
     build:
-        context: ./docker/app
+        context: ./docker
         dockerfile: Dockerfile
     image: devopsas3/app:latest 
     networks:
