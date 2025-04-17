@@ -1,7 +1,7 @@
 services:
   laravel:
     build:
-        contex: ./docker
+        contex: .
         dockerfile: Dockerfile
     image: devopsas3/app:latest 
     networks:
