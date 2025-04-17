@@ -26,7 +26,7 @@ services:
       MYSQL_USER: laraveluser
       MYSQL_PASSWORD: dadt01group151234
     ports:
-      - 33060:3306
+      - 33061:3306
     networks:
       - sysops
     volumes:
